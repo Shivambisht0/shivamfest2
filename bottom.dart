@@ -9,7 +9,7 @@ class MyB extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Container(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(31.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
@@ -30,7 +30,7 @@ class MyB extends StatelessWidget {
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 prefixIcon: ImageIcon(NetworkImage(
-                    "https://images.unsplash.com/photo-1578852612716-854e527abf2e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGFza3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")),
+                   "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsoldier&psig=AOvVaw2JEDwoboupltD77UR8Ynh5&ust=1633346406844000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCe1tSPrvMCFQAAAAAdAAAAABAD")),
                 hintText: "Enter your task",
               ),
               autofocus: true,
